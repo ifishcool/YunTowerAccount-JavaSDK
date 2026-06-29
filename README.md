@@ -39,7 +39,7 @@ Generate new token → 勾选 `read:packages`
 <repositories>
     <repository>
         <id>github</id>
-        <url>https://maven.pkg.github.com/YunTower/yuntower-account-java-sdk</url>
+        <url>https://maven.pkg.github.com/ifishcool/YunTowerAccount-JavaSDK</url>
     </repository>
 </repositories>
 
@@ -48,6 +48,13 @@ Generate new token → 勾选 `read:packages`
     <artifactId>yuntower-account-java-sdk</artifactId>
     <version>1.0.0</version>
 </dependency>
+```
+
+### 本地安装
+
+```bash
+git clone https://github.com/ifishcool/YunTowerAccount-JavaSDK.git
+cd YunTowerAccount-JavaSDK && mvn clean install
 ```
 
 
